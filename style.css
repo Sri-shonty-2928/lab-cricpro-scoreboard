@@ -1,5 +1,89 @@
 /* Type your code here */
+body{
+    background-image: url(background-image1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: Nunito sans;
+}
 
+table,td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+table{
+    background-color: white;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+pre{
+    border-collapse: collapse;
+    font-size: 115%;
+    border-bottom: 1px solid black;
+    margin-top: -0.1%;
+    margin-bottom: -0.1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#pre1{
+    background-color: red;
+    color: white;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color:transparent;
+    margin-top: -20px;
+    min-width: 140px;
+    z-index: 1;
+  }
+  
+  .name:hover .dropdown {
+    display: block;
+  }
+
+  .dropdown1 {
+    display: none;
+    position: absolute;
+    background-color:transparent;
+    min-width: 140px;
+    z-index: 1;
+  }
+  .name:hover .dropdown1 {
+    display: block;
+  }
+  
+  
+  #p1{
+      margin-left: 30%;
+      margin-top: -2%;
+  }
+  #p2{
+      margin-left: 43%;
+  }
+  #p3{
+      margin-left: 58%;
+  }
+  #p4{
+      margin-left: 69%;
+  }
+  #p5{
+      margin-left: 82%;
+  }
+  #icc{
+      position: relative;
+      margin-left: 3%;
+  }
+  #teams{
+    position: relative;
+    margin-left: 3%;
+  }
+  #logo{
+    position: relative;
+    margin-left: 85%;
+    margin-top: 1%;
+  }
 
 /* change the font family and spacing as per your project font */
 .footer{
